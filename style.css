@@ -20,3 +20,13 @@ body
     height: 1000px;
 }
 
+form
+{
+    display: flex;
+    flex-direction: row;
+}
+
+label
+{
+    display: block;
+}
