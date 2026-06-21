@@ -4,18 +4,13 @@ body
     border: solid pink 1px;
     height: 100%;
     width: 100%;
-}
-
-img
-{
-
+    margin: 0;
 }
 
 #left 
 {
-    border: solid  red 5px;
     width: 70%;
-    height: 1000px;
+
 }
 
 #right
