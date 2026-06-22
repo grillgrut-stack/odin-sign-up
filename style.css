@@ -38,6 +38,7 @@ label
 input 
 {
     margin-right: 50px;
+    padding-right: 50px;
 }
 
 #top
@@ -62,11 +63,18 @@ input
 
 #bottom
 {
+    background-color: lightgray;
     padding-top: 30px;
     padding-left: 30px;
+    padding-bottom: 50px;
 }
 
 #bottom button 
 {
     margin-bottom: 20px;
+}
+
+#odin 
+{
+    position: relative;
 }
