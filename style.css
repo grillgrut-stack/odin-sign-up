@@ -9,6 +9,9 @@ body
 #left 
 {
     width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 
 }
 
@@ -74,7 +77,21 @@ input
     margin-bottom: 20px;
 }
 
+#odinDiv
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    align-self: center;
+    width: 603.23px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
 #odin 
 {
-    position: relative;
+    width: 150px;
+    height: auto;
 }
+
