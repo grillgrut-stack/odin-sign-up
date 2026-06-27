@@ -39,6 +39,7 @@ form
     padding-left: 30px;
     padding-bottom: 40px;
     background-color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 label
@@ -62,7 +63,7 @@ input
     padding-top: 100px;
     padding-right: 100px;
     padding-left: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -81,7 +82,7 @@ input
     background-color: #f9fafb;
     padding-top: 30px;
     padding-left: 30px;
-    padding-bottom: 355px;
+    padding-bottom: 395px;
 }
 
 #bottom button 
@@ -135,3 +136,16 @@ input
     color: white;
 }
 
+button
+{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #596D48;
+    border: 0px;
+    border-radius: 7px;
+    box-shadow: 0px 3px 5px lightgray;
+}
