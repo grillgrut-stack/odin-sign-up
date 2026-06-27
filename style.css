@@ -109,3 +109,16 @@ input
     font-family: 'Sound';
     align-self: center;
 }
+
+.credit
+{
+    color: white;
+    position: absolute;
+    align-self:flex-end
+}
+
+.cred
+{
+    color: white;
+}
+
