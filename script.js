@@ -5,6 +5,9 @@ let userPass = document.querySelector("#userPass");
 let confirmPass = document.querySelector("#confirmPass");
 let confirmLabel = document.querySelector("#confirmPassLabel");
 
+let fName = document.querySelector("#firstName");
+
+
 createAccount.addEventListener("click", checkPass);
 
 function checkPass() 
@@ -15,11 +18,6 @@ function checkPass()
         if(checkOne != checkTwo)
         {
             confirmLabel.textContent = "Confirm Password: Passwords Don't Match"
-        }
-
-        if (checkOne === checkTwo)
-        {
-            createAccount.style.backgroundColor = "green";
         }
 
 };
